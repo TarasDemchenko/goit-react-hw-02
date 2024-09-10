@@ -1,0 +1,25 @@
+.btn_group {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 10px;
+  color: white;
+  transition: 0.2s linear;
+  background: #29039c;
+  &:hover {
+    box-shadow: 0 0 0 4px rgb(11, 225, 110), 0 0 0 4px #0be328;
+  }
+}
+.btn_reset {
+  border-radius: 10px;
+  color: rgb(9, 9, 9);
+  transition: 0.2s linear;
+  background: #b7f60b;
+  &:hover {
+    box-shadow: 0 0 0 4px rgb(10, 10, 10), 0 0 0 6px #f01906;
+  }
+}

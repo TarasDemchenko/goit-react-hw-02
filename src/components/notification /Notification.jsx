@@ -1,7 +1,7 @@
 import React from "react";
 
 const Notification = () => {
-  return <div>No feedback yet</div>;
+  return <p>No feedback yet</p>;
 };
 
 export default Notification;
